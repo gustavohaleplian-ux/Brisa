@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000000C8 /* BrisaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000064 /* BrisaApp.swift */; };
+		0000000000000000000000C9 /* ClimateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000065 /* ClimateModel.swift */; };
+		0000000000000000000000CA /* ClimatePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000066 /* ClimatePanel.swift */; };
+		0000000000000000000000CB /* ThinQClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000067 /* ThinQClient.swift */; };
+		A248AF53308AAEDE0099F9F5 /* PopupMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248AF52308AAEDE0099F9F5 /* PopupMenuButton.swift */; };
+		A2D4D07C30899A38001F392F /* LaunchAtLoginRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D07B30899A38001F392F /* LaunchAtLoginRow.swift */; };
+		A2D4D07E30899A42001F392F /* ControlCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D07D30899A42001F392F /* ControlCard.swift */; };
+		A2D4D08030899A45001F392F /* ControlSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D07F30899A45001F392F /* ControlSurface.swift */; };
+		A2D4D08230899A4A001F392F /* TemperatureTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D08130899A4A001F392F /* TemperatureTrack.swift */; };
+		A2D4D08430899A4D001F392F /* AirIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D08330899A4D001F392F /* AirIllustration.swift */; };
+		A2D4D08630899A51001F392F /* PointerTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D08530899A51001F392F /* PointerTracking.swift */; };
+		A2D4D08830899A55001F392F /* ParticleField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D08730899A55001F392F /* ParticleField.swift */; };
+		A2D4D08A30899B19001F392F /* TokenVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D08930899B19001F392F /* TokenVault.swift */; };
+		A2D4D08C308A2A27001F392F /* DemoSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D08B308A2A27001F392F /* DemoSounds.swift */; };
+		B1C0A0000000000000000001 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = B1C0A0000000000000000002 /* AppIcon.icon */; };
+		B1C0A0000000000000000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C0A0000000000000000005 /* Assets.xcassets */; };
+		B1C0A0000000000000000012 /* power-on.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B1C0A0000000000000000011 /* power-on.m4a */; };
+		B1C0A0000000000000000014 /* adjust.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B1C0A0000000000000000013 /* adjust.m4a */; };
+		B1C0A0000000000000000016 /* power-off.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B1C0A0000000000000000015 /* power-off.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000007 /* Brisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000064 /* BrisaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrisaApp.swift; sourceTree = "<group>"; };
+		000000000000000000000065 /* ClimateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateModel.swift; sourceTree = "<group>"; };
+		000000000000000000000066 /* ClimatePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimatePanel.swift; sourceTree = "<group>"; };
+		000000000000000000000067 /* ThinQClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinQClient.swift; sourceTree = "<group>"; };
+		A248AF52308AAEDE0099F9F5 /* PopupMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupMenuButton.swift; sourceTree = "<group>"; };
+		A2D4D07B30899A38001F392F /* LaunchAtLoginRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginRow.swift; sourceTree = "<group>"; };
+		A2D4D07D30899A42001F392F /* ControlCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCard.swift; sourceTree = "<group>"; };
+		A2D4D07F30899A45001F392F /* ControlSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSurface.swift; sourceTree = "<group>"; };
+		A2D4D08130899A4A001F392F /* TemperatureTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTrack.swift; sourceTree = "<group>"; };
+		A2D4D08330899A4D001F392F /* AirIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirIllustration.swift; sourceTree = "<group>"; };
+		A2D4D08530899A51001F392F /* PointerTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerTracking.swift; sourceTree = "<group>"; };
+		A2D4D08730899A55001F392F /* ParticleField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleField.swift; sourceTree = "<group>"; };
+		A2D4D08930899B19001F392F /* TokenVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenVault.swift; sourceTree = "<group>"; };
+		A2D4D08B308A2A27001F392F /* DemoSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSounds.swift; sourceTree = "<group>"; };
+		B1C0A0000000000000000002 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		B1C0A0000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1C0A0000000000000000011 /* power-on.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "power-on.m4a"; sourceTree = "<group>"; };
+		B1C0A0000000000000000013 /* adjust.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = adjust.m4a; sourceTree = "<group>"; };
+		B1C0A0000000000000000015 /* power-off.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "power-off.m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				B1C0A0000000000000000002 /* AppIcon.icon */,
+				B1C0A0000000000000000005 /* Assets.xcassets */,
+				B1C0A0000000000000000010 /* Sounds */,
+				000000000000000000000006 /* Sources */,
+				000000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000007 /* Brisa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000006 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D07530899A07001F392F /* App */,
+				A2D4D07630899A07001F392F /* Model */,
+				A2D4D07730899A07001F392F /* Networking */,
+				A2D4D07830899A0A001F392F /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A2D4D07530899A07001F392F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000064 /* BrisaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A2D4D07630899A07001F392F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000065 /* ClimateModel.swift */,
+				A2D4D08B308A2A27001F392F /* DemoSounds.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2D4D07730899A07001F392F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000067 /* ThinQClient.swift */,
+				A2D4D08930899B19001F392F /* TokenVault.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A2D4D07830899A0A001F392F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D07930899A0E001F392F /* Components */,
+				A2D4D07A30899A0E001F392F /* Airflow */,
+				000000000000000000000066 /* ClimatePanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2D4D07930899A0E001F392F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D07B30899A38001F392F /* LaunchAtLoginRow.swift */,
+				A2D4D07D30899A42001F392F /* ControlCard.swift */,
+				A2D4D07F30899A45001F392F /* ControlSurface.swift */,
+				A2D4D08130899A4A001F392F /* TemperatureTrack.swift */,
+				A248AF52308AAEDE0099F9F5 /* PopupMenuButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A2D4D07A30899A0E001F392F /* Airflow */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D08330899A4D001F392F /* AirIllustration.swift */,
+				A2D4D08530899A51001F392F /* PointerTracking.swift */,
+				A2D4D08730899A55001F392F /* ParticleField.swift */,
+			);
+			path = Airflow;
+			sourceTree = "<group>";
+		};
+		B1C0A0000000000000000010 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B1C0A0000000000000000011 /* power-on.m4a */,
+				B1C0A0000000000000000013 /* adjust.m4a */,
+				B1C0A0000000000000000015 /* power-off.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000005 /* Brisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000008 /* Build configuration list for PBXNativeTarget "Brisa" */;
+			buildPhases = (
+				000000000000000000000009 /* Sources */,
+				B1C0A0000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brisa;
+			productName = Brisa;
+			productReference = 000000000000000000000007 /* Brisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = 000000000000000000000002 /* Build configuration list for PBXProject "Brisa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = pt;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				pt,
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000003;
+			productRefGroup = 000000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000005 /* Brisa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C0A0000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C0A0000000000000000001 /* AppIcon.icon in Resources */,
+				B1C0A0000000000000000004 /* Assets.xcassets in Resources */,
+				B1C0A0000000000000000012 /* power-on.m4a in Resources */,
+				B1C0A0000000000000000014 /* adjust.m4a in Resources */,
+				B1C0A0000000000000000016 /* power-off.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000C8 /* BrisaApp.swift in Sources */,
+				0000000000000000000000C9 /* ClimateModel.swift in Sources */,
+				A2D4D07E30899A42001F392F /* ControlCard.swift in Sources */,
+				A2D4D08830899A55001F392F /* ParticleField.swift in Sources */,
+				A2D4D08030899A45001F392F /* ControlSurface.swift in Sources */,
+				A248AF53308AAEDE0099F9F5 /* PopupMenuButton.swift in Sources */,
+				A2D4D08C308A2A27001F392F /* DemoSounds.swift in Sources */,
+				A2D4D08630899A51001F392F /* PointerTracking.swift in Sources */,
+				A2D4D08230899A4A001F392F /* TemperatureTrack.swift in Sources */,
+				A2D4D08A30899B19001F392F /* TokenVault.swift in Sources */,
+				A2D4D08430899A4D001F392F /* AirIllustration.swift in Sources */,
+				0000000000000000000000CA /* ClimatePanel.swift in Sources */,
+				0000000000000000000000CB /* ThinQClient.swift in Sources */,
+				A2D4D07C30899A38001F392F /* LaunchAtLoginRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Brisa;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.surtocriativo.Brisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Brisa;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.surtocriativo.Brisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000002 /* Build configuration list for PBXProject "Brisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000A /* Debug */,
+				00000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000008 /* Build configuration list for PBXNativeTarget "Brisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000C /* Debug */,
+				00000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
